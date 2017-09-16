@@ -15,19 +15,23 @@
    display: flex;
  }
 
- .column.large {
+.columns {
+  width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+ .columnlarge {
    width: 630px;
-   display: flex;
  }
 
- .column.medium {
+ .columnmedium {
    width: 300px;
-   display: flex;
  }
 
- .column.small {
+ .columnsmall {
    width: 240px;
-   display: flex;
  }
 
 div {
