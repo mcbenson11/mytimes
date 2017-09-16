@@ -1,9 +1,9 @@
 .header {
-  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   align-items: center;
+  justify-content: space-between;
 }
 
  .logo {
@@ -11,12 +11,8 @@
    display: inline-flex;
  }
 
- .nav {
-   display: inline-flex;
-   font-family: Verdana;
-   font-size: 14px;
-   font-weight: bold;display: inline-block;
-   justify-content: space-between;
+ #flex {
+   display: flex;
  }
 
  .column.large {
