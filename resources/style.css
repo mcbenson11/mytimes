@@ -1,10 +1,9 @@
 .header {
-  display: inline-flex;
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   align-items: center;
-  width: 800px;
 }
 
  .logo {
@@ -22,14 +21,17 @@
 
  .column.large {
    width: 630px;
+   display: inline-block;
  }
 
  .column.medium {
    width: 300px;
+   display: inline-block;
  }
 
  .column.small {
    width: 240px;
+   display: inline-block;
  }
 
 div {
