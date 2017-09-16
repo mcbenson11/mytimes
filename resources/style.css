@@ -24,6 +24,7 @@
 
  .columnlarge {
    width: 630px;
+   flex-wrap: wrap;
  }
 
  .columnmedium {
@@ -33,10 +34,6 @@
  .columnsmall {
    width: 240px;
  }
-
-div {
-  border: 1px solid black;
-}
 
 .story {
   font-family: Georgia;
@@ -73,4 +70,15 @@ div {
 
 #bigfont {
   font-size: 40px;
+}
+
+.storygroup {
+  flex-direction: column;
+  display: inline-flex;
+  width: 300px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
 }
