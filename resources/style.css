@@ -4,6 +4,12 @@
   font-weight: bold;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.nav {
+  padding: 0px 20px;
+  text-decoration: underline;
 }
 
  .logo {
@@ -68,6 +74,8 @@
   font-size: 30px;
   color: white;
   text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #bigfont {
@@ -103,4 +111,28 @@
 .newsbiteslistitem {
   border-bottom: 1px solid black;
   padding: 11px 20px;
+  margin: 0px;
+}
+
+.footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  flex-direction: column;
+}
+
+.mytimesfooter {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footernav {
+  padding: 10px 20px;
+  text-decoration: underline;
 }
