@@ -33,6 +33,7 @@
 
  .columnsmall {
    width: 240px;
+   flex-direction: column;
  }
 
 .story {
@@ -66,6 +67,7 @@
   font-weight: bold;
   font-size: 30px;
   color: white;
+  text-align: center;
 }
 
 #bigfont {
@@ -81,4 +83,24 @@
 .stories {
   display: flex;
   justify-content: space-between;
+}
+
+.newsbites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newsbiteslist {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.newsbiteslistitem {
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
 }
